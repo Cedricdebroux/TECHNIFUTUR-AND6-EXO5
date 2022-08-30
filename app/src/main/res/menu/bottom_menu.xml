@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/Home"
-        android:icon="@drawable/home"
+        android:id="@+id/tennisFragment"
+        android:icon="@drawable/tennis"
         android:iconTintMode="src_atop"
-        android:title="@string/dashboard_menu_title" />
+        android:title="@string/tennis" />
 
     <item
-        android:id="@+id/News"
-        android:icon="@drawable/ic_baseline_fiber_new_24"
+        android:id="@+id/basketFragment"
+        android:icon="@drawable/basketball"
         android:iconTintMode="src_atop"
-        android:title="@string/news" />
+        android:title="@string/basket_bottom" />
+    <item
+        android:id="@+id/handFragment"
+        android:icon="@drawable/handball"
+        android:iconTintMode="src_atop"
+        android:title="@string/hand_bottom" />
 
 </menu>

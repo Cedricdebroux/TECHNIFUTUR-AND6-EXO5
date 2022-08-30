@@ -3,19 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_navigation"
-    app:startDestination="@id/Home"
+    app:startDestination="@id/tennisFragment"
     >
 
     <fragment
-        android:id="@+id/Home"
-        android:name="com.technipixl.exo5.HomeFragment"
+        android:id="@+id/tennisFragment"
+        android:name="com.technipixl.exo5.TennisFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home"/>
+        tools:layout="@layout/fragment_tennis"/>
     <fragment
-        android:id="@+id/News"
-        android:name="com.technipixl.exo5.NewsFragment"
+        android:id="@+id/basketFragment"
+        android:name="com.technipixl.exo5.BasketFragment"
         android:label="fragment_news"
-        tools:layout="@layout/fragment_news" >
+        tools:layout="@layout/fragment_basket" >
         <action
             android:id="@+id/action_News_to_detailsFragment"
             app:destination="@id/detailsFragment" />
@@ -25,4 +25,34 @@
         android:name="com.technipixl.exo5.DetailsFragment"
         android:label="fragment_details"
         tools:layout="@layout/fragment_details" />
+    <fragment
+        android:id="@+id/handFragment"
+        android:name="com.technipixl.exo5.HandFragment"
+        android:label="fragment_hand"
+        tools:layout="@layout/fragment_hand" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.technipixl.exo5.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/pratiqueFragment"
+        android:name="com.technipixl.exo5.PratiqueFragment"
+        android:label="fragment_pratique"
+        tools:layout="@layout/fragment_pratique" />
+    <fragment
+        android:id="@+id/entrainementFragment"
+        android:name="com.technipixl.exo5.EntrainementFragment"
+        android:label="fragment_entrainement"
+        tools:layout="@layout/fragment_entrainement" />
+    <fragment
+        android:id="@+id/planningFragment"
+        android:name="com.technipixl.exo5.PlanningFragment"
+        android:label="fragment_planning"
+        tools:layout="@layout/fragment_planning" />
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.technipixl.exo5.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
 </navigation>

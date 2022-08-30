@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/infoFragment"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/info" />
+        <item
+            android:id="@+id/pratiqueFragment"
+            android:icon="@drawable/pratique"
+            android:title="@string/pratique_title" />
+        <item
+            android:id="@+id/entrainementFragment"
+            android:icon="@drawable/training"
+            android:title="@string/entrainement_title" />
+        <item
+            android:id="@+id/planningFragment"
+            android:icon="@drawable/planning"
+            android:title="@string/planning_title"/>
+        <item
+            android:id="@+id/contactFragment"
+            android:icon="@drawable/contact"
+            android:title="@string/contact_title"/>
+    </group>
+</menu>
